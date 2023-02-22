@@ -34,16 +34,29 @@ public class Lab {
      *      this will add the current value of i to an already existing variable 'sum', so that we can get the sum of
      *      all numbers that fall between start and end.
      *      you can consult any for loop example to resolve syntax issues.
-     *
+     * 
      *      @param start the value of i where the for loop should start.
      *      @param end the value of i where the for loop should end (provided that the for loop is incremented with i++)
      *      @return the sum of all numbers between start and end, with start inclusive and end exclusive.
      */
     public String returnNumbers(int start, int end){
-        String buildingString = "";
+    
+        String buildingString = " ";
+           
+           for(int i = start; i < end; i++) 
 
-//        code here
+             buildingString = buildingString + i + " ";
+             
+    
+           return buildingString;
 
-        return buildingString;
     }
-}
+
+     }
+    
+
+
+
+
+    
+
